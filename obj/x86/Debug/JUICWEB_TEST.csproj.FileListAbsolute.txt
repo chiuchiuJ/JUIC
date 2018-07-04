@@ -1,0 +1,2 @@
+D:\JUICWEB_TEST\obj\x86\Debug\JUICWEB_TEST.csprojAssemblyReference.cache
+D:\JUICWEB_TEST\obj\x86\Debug\JUICWEB_TEST.csproj.CoreCompileInputs.cache
