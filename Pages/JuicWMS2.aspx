@@ -167,7 +167,7 @@
             </asp:Panel>
             <asp:Button ID="Button5" runat="server" Text="座位表與聯繫方式" CssClass="btn btn-default btn-block" Font-Names="微軟正黑體" OnClick="Button5_Click" />
             <asp:Panel ID="Panel2" runat="server" Visible="False" HorizontalAlign="Center">
-                <asp:HyperLink ID="HyperLink6" runat="server" CssClass="btn btn-primary " Font-Names="微軟正黑體" NavigateUrl="~/files/title/久威聯絡方式2018.06.xlsx" Target="_blank">久威國際</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink6" runat="server" CssClass="btn btn-primary " Font-Names="微軟正黑體" NavigateUrl="~/files/title/久威聯絡方式2018.07.xlsx" Target="_blank">久威國際</asp:HyperLink>
                 <asp:HyperLink ID="HyperLink7" runat="server" CssClass="btn btn-warning " Font-Names="微軟正黑體" NavigateUrl="~/files/title/久鋐聯絡方式2017.12.xlsx" Target="_blank">久鋐</asp:HyperLink>
                 <asp:HyperLink ID="HyperLink8" runat="server" CssClass="btn btn-success " Font-Names="微軟正黑體" NavigateUrl="~/files/title/廣田聯絡方式2017.11.xls" Target="_blank">廣田</asp:HyperLink>
             </asp:Panel>

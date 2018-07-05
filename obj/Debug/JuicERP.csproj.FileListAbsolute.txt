@@ -46,7 +46,6 @@ D:\JUICWEB_TEST\bin\JuicERP.dll
 D:\JUICWEB_TEST\bin\JuicERP.pdb
 D:\JUICWEB_TEST\bin\Microsoft.ReportViewer.WebForms.dll
 D:\JUICWEB_TEST\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
-D:\JUICWEB_TEST\obj\Debug\JuicERP.csprojResolveAssemblyReference.cache
 D:\JUICWEB_TEST\obj\Debug\RdlCompile.cache
 D:\JUICWEB_TEST\obj\Debug\RdlCompile.compiled
 D:\JUICWEB_TEST\obj\Debug\JuicERP.dll
