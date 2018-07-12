@@ -36,7 +36,9 @@ namespace JuicERP.DAL
         //取得員工個人資訊
         public DataTable getpay11info(string emp_no)
         {
-            string sql = "SELECT * FROM pay11 WHERE emp_no = @emp_no";
+            string sql = @"SELECT * FROM pay11 WHERE emp_no = @emp_no
+                           union all
+                           SELECT * FROM jutw.dbo.pay11 WHERE emp_no =@emp_no ";
             List<SqlParameter> paras = new List<SqlParameter>();
             paras.Add(new SqlParameter("emp_no", emp_no));
    
