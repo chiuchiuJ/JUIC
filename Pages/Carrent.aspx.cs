@@ -211,10 +211,18 @@ namespace JuicERP.Pages
                 {
                     for (int i = 0; i < ds.Tables[0].Rows.Count; i++)
                     {
-                        conn.Close();
-                        string strJS = "alert('此時段已有人預約');location.href = ('Carrent.aspx');";
-                        Page.ClientScript.RegisterStartupScript(this.GetType(), "", strJS, true);
-                        return;
+                        if (ds.Tables[0].Rows[i]["backYN"].ToString().Trim()=="Y" )
+                        {
+                            //107/07/19 Jesse 修改 若該車已經歸還則可以預約
+                        }
+                        else
+                        {
+                            conn.Close();
+                            string strJS = "alert('此時段已有人預約');location.href = ('Carrent.aspx');";
+                            Page.ClientScript.RegisterStartupScript(this.GetType(), "", strJS, true);
+                            return;
+                        }
+                      
                     }
                 }
 
